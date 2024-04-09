@@ -1,7 +1,7 @@
 @import "police";
 
 .container {
-    max-width: 1280px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -11,9 +11,19 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    menu {
+    .menu {
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 1em;
+        }
+
+        a {
+            text-decoration: none;
+        }
     }
 }
