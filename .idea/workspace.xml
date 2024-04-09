@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="message de commit">
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="changement sur les variables -&gt; @mixin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_fonts.scss" afterDir="false" />
     </list>
@@ -82,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712656287526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changement sur les variables -&gt; @mixin">
+      <option name="closed" value="true" />
+      <created>1712656733325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712656733325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="message de commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="message de commit" />
+    <MESSAGE value="changement sur les variables -&gt; @mixin" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement sur les variables -&gt; @mixin" />
   </component>
 </project>

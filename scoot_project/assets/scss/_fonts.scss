@@ -1,4 +1,5 @@
-@import "typos";
+
+
 @mixin head1  {
 font-size: 56px;
 line-height: 56px;
@@ -19,6 +20,6 @@ letter-spacing: -2.5;
   line-height: 28px;
   letter-spacing: -1.07;
 }
-$body1{
+@mixin body1 {
 
 }
