@@ -1,0 +1,13 @@
+@import "colors";
+
+@mixin btn {
+    font-family: 'Space Mono';
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0.5em 2.3em;
+    background-color: $yellow;
+
+    a {
+        text-decoration: none;
+    }
+}

@@ -1,4 +1,4 @@
-@import "typos", "colors", "fonts";
+@import "typos", "colors", "fonts", "buttons";
 
 .container {
     max-width: 80%;
@@ -29,7 +29,9 @@ header {
                 line-height: 25px;
             }
         }
+    }
 
-
+    .button {
+        @include btn;
     }
 }
