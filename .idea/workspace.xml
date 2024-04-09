@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_variables.scss" afterDir="false" />
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="message de commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KennyWouters"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Junior-dev-Track/14-css-scoot-project-l-k.git",
+    "accountId": "32130c07-81e3-444f-9e23-b8e6fdcdbe81"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -65,7 +81,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="message de commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="message de commit" />
   </component>
 </project>
