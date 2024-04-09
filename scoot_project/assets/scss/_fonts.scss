@@ -1,25 +1,36 @@
+@import "typos", "colors";
+
 @mixin head1 {
+  font-family: 'Space Mono', monospace;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5;
 }
 
 @mixin head2 {
+  font-family: 'Space Mono', monospace;
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -2.14;
+  color: $dn;
 }
 
 @mixin head3 {
+  font-family: 'Space Mono', monospace;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -1.79;
 }
 
 @mixin head4 {
+  font-family: 'Space Mono', monospace;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -1.07;
 }
 
-@mixin body1 {}
+@mixin body1 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}

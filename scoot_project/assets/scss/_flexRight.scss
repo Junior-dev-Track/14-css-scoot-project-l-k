@@ -1,0 +1,25 @@
+@import "colors", "fonts", "buttons", "typos";
+
+.txtImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h2 {
+        @include head2;
+    }
+
+    p {
+        @include body1;
+        color: $dg;
+        padding: 1.5em 0;
+    }
+
+    .button {
+        @include btn;
+        text-decoration: none;
+
+    }
+
+
+}
