@@ -1,0 +1,27 @@
+@import "typos";
+
+.footer_up {
+  margin-top: 2rem;
+  display: flex;
+  width: 1440px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem;
+  background-image: url("/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/svg/footer/background.svg");
+
+  p {
+    font-size: 48px;
+    color: white;
+    font-family: "Space Mono";
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.14;
+  }
+}
+.stores{
+  display: flex;
+  width:50%;
+  justify-content: right;
+  gap:1rem;
+}
