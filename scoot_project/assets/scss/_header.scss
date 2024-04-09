@@ -1,4 +1,4 @@
-@import "typos";
+@import "typos", "colors", "fonts";
 
 .container {
     max-width: 80%;
@@ -20,10 +20,13 @@ header {
             list-style: none;
             display: inline;
             padding: 1em;
+
+            a {
+                text-decoration: none;
+                background-color: $yellow;
+            }
         }
 
-        a {
-            text-decoration: none;
-        }
+
     }
 }
