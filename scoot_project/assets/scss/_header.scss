@@ -1,0 +1,32 @@
+@import "typos", "colors", "fonts";
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 1em;
+
+            a {
+                text-decoration: none;
+                background-color: $yellow;
+            }
+        }
+
+
+    }
+}
