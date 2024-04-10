@@ -8,7 +8,7 @@
     background-color: $yellow;
     width: fit-content;
 
-    a {
+    & {
         text-decoration: none;
         color: white;
     }
@@ -16,9 +16,7 @@
     &:hover {
         background-color: white;
         outline: 2px solid $yellow;
+        color: $yellow;
 
-        a {
-            color: $yellow;
-        }
     }
 }

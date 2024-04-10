@@ -4,12 +4,17 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 8em;
 
     .imgTxt {
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+
+        .textBtn {
+            overflow-wrap: break-word;
+            width: 45%;
+        }
 
         h2 {
             @include head2;
@@ -24,6 +29,8 @@ main {
         .button {
             @include btn;
             text-decoration: none;
+            position: relative;
+            left: 20%;
 
         }
 
@@ -35,27 +42,27 @@ main {
             width: 100%;
         }
 
-        .img {
+        .png {
             position: relative;
-            right: 20%;
             z-index: 0;
         }
 
-        .circle {
-            position: relative;
-            right: 31.4%;
+        .circle2 {
             z-index: 0;
+            position: absolute;
+            top: 630px;
+            left: 0;
         }
 
-        .arrow {
+        .arrow2 {
             z-index: 1;
             position: absolute;
-            height: auto;
-            width: 125%;
-            top: 2px;
-            right: 23px;
+            top: 630px;
+            left: 0;
         }
-
-
     }
+
+
+
+
 }

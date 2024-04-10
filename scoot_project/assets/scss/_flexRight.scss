@@ -9,6 +9,12 @@ main {
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+
+        .textBtn {
+            overflow-wrap: break-word;
+            width: 45%;
+        }
 
         h2 {
             @include head2;
@@ -23,38 +29,33 @@ main {
         .button {
             @include btn;
             text-decoration: none;
+            color: white;
 
         }
 
-        .imgSvg {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+        .png {
             position: relative;
-            width: 100%;
-        }
-
-        .img {
-            position: relative;
-            left: 20%;
             z-index: 0;
         }
 
+        img.mask {
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }
 
         .circle {
-            position: relative;
-            left: 31.4%;
             z-index: 0;
-
+            position: absolute;
+            top: 60px;
+            right: 0;
         }
 
         .arrow {
             z-index: 1;
             position: absolute;
-            height: auto;
-            width: 125%;
-            top: 200px;
-            left: 23px;
+            top: 350px;
+            right: 0;
 
         }
 
