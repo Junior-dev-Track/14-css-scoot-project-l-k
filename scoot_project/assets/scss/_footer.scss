@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   padding: 7rem;
-  background-image: url("/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/svg/footer/background.svg");
+  background-image: url("./assets/svg/footer/background.svg");
 
   p {
     font-size: 48px;
@@ -19,12 +19,14 @@
     letter-spacing: -2.14;
   }
 }
-.stores{
+
+.stores {
   display: flex;
-  width:50%;
+  width: 50%;
   justify-content: right;
-  gap:1rem;
+  gap: 1rem;
 }
+
 @import "typos";
 
 .footer_up {
@@ -35,7 +37,7 @@
   justify-content: center;
   align-items: center;
   padding: 7rem;
-  background-image: url("/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/svg/footer/background.svg");
+  background-image: url("./assets/svg/footer/background.svg");
 
   p {
     font-size: 48px;
@@ -46,9 +48,10 @@
     letter-spacing: -2.14;
   }
 }
-.stores{
+
+.stores {
   display: flex;
-  width:50%;
+  width: 50%;
   justify-content: right;
-  gap:1rem;
+  gap: 1rem;
 }
