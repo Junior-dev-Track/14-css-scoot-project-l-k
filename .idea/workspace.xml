@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="added sliding effect for header when scrolling down and up">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712773096199</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added sliding effect for header when scrolling down and up">
+      <option name="closed" value="true" />
+      <created>1712774741678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712774741678</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
