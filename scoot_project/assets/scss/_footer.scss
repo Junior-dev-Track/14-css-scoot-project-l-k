@@ -3,12 +3,13 @@
 .footer_up {
   margin-top: 2rem;
   display: flex;
-  width: 1440px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   padding: 7rem;
-  background-image: url("/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/svg/footer/background.svg");
+  background-image: url("./assets/svg/footer/background.svg");
+  background-size: cover;
 
   p {
     font-size: 48px;
@@ -25,30 +26,47 @@
   justify-content: right;
   gap:1rem;
 }
-@import "typos";
 
-.footer_up {
-  margin-top: 2rem;
+.footer_down{
   display: flex;
-  width: 1440px;
-  height: 300px;
-  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
   align-items: center;
-  padding: 7rem;
-  background-image: url("/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/svg/footer/background.svg");
+  padding: 2rem;
+  background-color:hsla(215, 14%, 23%, 1);
 
-  p {
-    font-size: 48px;
-    color: white;
-    font-family: "Space Mono";
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -2.14;
+  .left{
+    display: flex;
+    width: 50%;
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+      a{
+        color: aliceblue;
+        text-decoration: none;
+      }
+    }
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 50%;
+    justify-content: right;
+  }
+  .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1rem;
+    a{
+      color: aliceblue;
+      justify-content: right;
+    }
   }
 }
-.stores{
-  display: flex;
-  width:50%;
-  justify-content: right;
-  gap:1rem;
-}
+
+
