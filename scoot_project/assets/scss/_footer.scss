@@ -1,13 +1,18 @@
 @import "typos";
-
+.footer_container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 .footer_up {
   margin-top: 2rem;
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 7rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-image: url("./assets/svg/footer/background.svg");
   background-size: cover;
 
@@ -17,7 +22,7 @@
     font-family: "Space Mono";
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: -2.14;
+
   }
 }
 .stores{
@@ -29,43 +34,47 @@
 
 .footer_down{
   display: flex;
-  margin: auto;
+  justify-content: space-between;
+  //align-items: center;
   width: 100%;
   height: 100%;
-  justify-content: space-between;
-  align-items: center;
   padding: 2rem;
   background-color:hsla(215, 14%, 23%, 1);
 
-  .left{
-    display: flex;
-    width: 50%;
-    ul {
-      display: flex;
-      list-style: none;
-      gap: 1rem;
-      a{
-        color: aliceblue;
-        text-decoration: none;
+    .l{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 50%;
+      ul{
+        display: flex;
+        li{
+            margin: 2rem;
+            list-style: none;
+
+          a{
+            text-decoration: none;
+            color: white;
+            font-family: "Space Mono";
+            font-size: 15px;
+            line-height: 25px;
+
+          }
+        }
       }
     }
-  }
   .social{
     display: flex;
     flex-direction: row;
     gap: 1rem;
     width: 50%;
-    justify-content: right;
+
   }
   .right{
     display: flex;
     flex-direction: row;
     justify-content: right;
     gap: 1rem;
-    a{
-      color: aliceblue;
-      justify-content: right;
-    }
   }
 }
 
