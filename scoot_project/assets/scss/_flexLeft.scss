@@ -1,11 +1,12 @@
 @import "colors", "fonts", "buttons", "typos";
 
+
 main {
     display: flex;
     flex-direction: column;
     gap: 8em;
 
-    .txtImg {
+    .imgTxt {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -26,7 +27,7 @@ main {
 
         }
 
-        .imgSvg {
+        .svgImg {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -36,16 +37,14 @@ main {
 
         .img {
             position: relative;
-            left: 20%;
+            right: 20%;
             z-index: 0;
         }
 
-
         .circle {
             position: relative;
-            left: 31.4%;
+            right: 31.4%;
             z-index: 0;
-
         }
 
         .arrow {
@@ -53,13 +52,9 @@ main {
             position: absolute;
             height: auto;
             width: 125%;
-            top: 200px;
-            left: 23px;
-
+            top: 2px;
+            right: 23px;
         }
-
-
-
 
 
     }
