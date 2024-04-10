@@ -2,23 +2,29 @@
 
 .footer_container {
   display: flex;
-  width: 100%;
+  width: 1110px;
   justify-content: space-between;
 }
 
 .footer_up {
   margin-top: 2rem;
   display: flex;
-  width: 100%;
+  width: 1110px;
+  margin: auto;
   justify-content: space-between;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-image: url("./assets/svg/footer/background.svg");
-  background-size: cover;
+  background-size: auto;
+  background-color: hsla(217, 18%, 35%, 1);
+
+  width: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
 
 
   p {
-    margin-left: 5rem;
+    //margin-left: 5rem;
     font-size: 48px;
     color: white;
     font-family: "Space Mono", serif;
