@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/14-css-scoot-project-l-k.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/14-css-scoot-project-l-k.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_flexRight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_flexRight.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" afterDir="false" />
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="suite header index">
       <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,7 @@
       <workItem from="1712659846273" duration="2342000" />
       <workItem from="1712775012847" duration="5856000" />
       <workItem from="1712782434147" duration="2239000" />
-      <workItem from="1712787599031" duration="478000" />
+      <workItem from="1712787599031" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -176,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712775093897</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="suite header index">
+      <option name="closed" value="true" />
+      <created>1712788380131</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712788380131</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +188,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="added sliding effect for header when scrolling down and up" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sliding effect for header when scrolling down and up" />
+    <MESSAGE value="suite header index" />
+    <option name="LAST_COMMIT_MESSAGE" value="suite header index" />
   </component>
 </project>
