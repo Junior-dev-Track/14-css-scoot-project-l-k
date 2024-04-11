@@ -2,11 +2,33 @@
 
 main {
 
-    .test {
+    .content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
 
+        h2 {
+            @include head2;
+            width: 30%;
+        }
+
+        .test {
+
+            width: 40%;
+
+            p {
+                @include body1;
+                color: $dg;
+            }
+        }
+
+
+        a {
+            @include btn;
+            padding: 1em 3em;
+            width: 20%
+        }
+
+    }
 }
