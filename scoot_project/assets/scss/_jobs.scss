@@ -1,1 +1,31 @@
 @import "typos", "colors", "fonts", "buttons";
+
+.jobs {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .box {
+        background-color: $snow;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 2em;
+
+
+        h4 {
+            @include head4;
+        }
+
+        p {
+            @include body1;
+        }
+
+        a {
+            @include btn;
+            padding: 0.5em 3em;
+        }
+    }
+}
