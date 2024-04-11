@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="new pages folder">
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="deleted pages folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/pages/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/pages/indextest.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/indextest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/pages/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/views/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/views/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/views/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/views/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/views/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/views/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712820876022</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="deleted pages folder">
+      <option name="closed" value="true" />
+      <created>1712821393888</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712821393888</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +264,7 @@
     <MESSAGE value="added sliding effect for header when scrolling down and up" />
     <MESSAGE value="suite header index" />
     <MESSAGE value="new pages folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="new pages folder" />
+    <MESSAGE value="deleted pages folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted pages folder" />
   </component>
 </project>
