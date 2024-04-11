@@ -1,1 +1,36 @@
 @import "typos", "colors", "fonts";
+
+.bubbles {
+
+    h2 {
+        @include head2;
+        text-align: center;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+
+            h4 {
+                @include head4;
+            }
+
+            p {
+                @include body1;
+                color: $dg;
+                text-align: center;
+            }
+        }
+
+    }
+
+}
