@@ -42,9 +42,11 @@
 
   details {
     background-color: hsla(214, 37%, 96%, 1);
+    width: 100%;
 
     summary {
       display: flex;
+
       font-family: "Space Mono", serif;
       font-weight: 700;
       font-size: 24px;
@@ -52,6 +54,9 @@
       letter-spacing: -1.07px;
         display: flex;
         justify-content: space-between;
+      h4{
+        width: 100%;
+      }
 
     }
 
@@ -87,12 +92,10 @@
   summary::after {
     content: url("./assets/png/about/faqArrow.png");
 
-
-    //margin-right: 0px;
     transition: transform 0.3s ease-in-out;
   }
 
-  .faq-questions details[open] summary::after {
+  details[open] summary::after {
     transform: rotateX(180deg);
   }}}
 
