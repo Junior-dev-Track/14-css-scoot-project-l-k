@@ -6,31 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Scoot App</title>
   <link rel="stylesheet" href="style.scss">
-  <script type="module" src="/main.js"></script>
+  <script type="module" src="./scripts/main.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script rel="script" src="scripts/include.js"></script>
+
 </head>
 
-<body class="">
-  <header class="container">
-    <div class="menu">
-      <a href="#">
-        <img src="./assets/svg/header/scoot.svg" alt="Company's logo">
-      </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="#">Location</a>
-          </li>
-          <li>
-            <a href="#">Careers</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="button"><a href="#">Get Scootin</a></div>
-  </header>
+<body>
+
+<header data-include="header"></header>
+<div class="headpic " >
+  <div class="insideheadpic">
+      <p class="ltxt">
+        Scooter sharing made simple
+      </p>
+      <p>
+
+      </p>
+  </div>
+</div>
+
 
   <main class="container">
     <section class="txtImg">
@@ -39,93 +34,41 @@
         <p>The Scoot app is available with riding telemetry. This means it can show you your average speed, how long
           you've
           been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
-        <div class="button"><a href="#">Learn More</a></div>
+        <a class="button" href="#">Learn More</a>
       </div>
-      <div class="imgSvg">
-        <div class="img">
-          <img src="./assets/png/home/home1.png" alt="A woman watching her phone">
-        </div>
-        <div class="circle">
-          <img src="./assets/svg/home/circle.svg" alt="A circle">
-        </div>
-        <div class="arrow">
-          <img src="./assets/svg/home/arrow.svg" alt="An arrow">
-        </div>
-      </div>
+      <img class="png" src="./assets/png/home/home1.png" alt="A woman watching her phone">
+      <img class="arrow" src="./assets/svg/home/arrow.svg" alt="An arrow">
+      <img class="circle" src="./assets/svg/home/circle.svg" alt="circle">
     </section>
     <section class="imgTxt">
-      <div class="svgImg">
-        <div class="arrow">
-          <img src="./assets/svg/home/arrow2.svg" alt="An arrow">
-        </div>
-        <div class="circle">
-          <img src="./assets/svg/home/circle2.svg" alt="A circle">
-        </div>
-        <div class="img">
-          <img src="./assets/png/home/home2.png" alt="A woman watching her phone">
-        </div>
-      </div>
+      <img class="png" src="./assets/png/home/home2.png" alt="City with buildings and tress">
+      <img class="arrow2" src="./assets/svg/home/arrow2.svg" alt="An arrow">
+      <img class="circle2" src="./assets/svg/home/circle2.svg" alt="circle">
       <div class="textBtn">
         <h2>Coming to a city near you</h2>
         <p>Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you
           want
           to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.
         </p>
-        <div class="button"><a href="#">Learn More</a></div>
+        <a class="button" href="#">Learn More</a>
       </div>
+    </section>
+    <section class="txtImg">
+      <div class="textBtn">
+        <h2>Zero hassle payments</h2>
+        <p>Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link
+          your
+          PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
+        <a class="button" href="#">Learn More</a>
+      </div>
+      <img class="mask" src="./assets/png/home/home3.png" alt="Hand taking cash from wallet">
+      <img class="arrow3" src="./assets/svg/home/arrow3.svg" alt="An arrow">
+      <img class="circle3" src="./assets/svg/home/circle3.svg" alt="circle">
     </section>
   </main>
 
-
-  <footer class="">
-    <div class="footer_up">
-      <div class="container footer_container">
-        <div>
-          <p>Sign up and Scoot off today</p>
-        </div>
-        <div class="stores">
-          <a href="https://www.apple.com/befr/app-store/" target="_blank">
-            <img src="assets/svg/footer/appStore.svg" alt="apple app store link logo">
-          </a>
-          <a href="https://play.google.com/store/games?hl=fr&gl=US" target="_blank">
-            <img src="assets/svg/footer/googlePlay.svg" alt="android google play store link logo">
-          </a>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="footer_down ">
-
-      <div class="container footer_container">
-        <div class="l">
-          <img src="./assets/svg/header/scoot.svg" alt="">
-          <nav class="nav">
-            <ul>
-              <li>
-                <a href="about.html">About</a>
-              </li>
-              <li>
-                <a href="#">Location</a>
-              </li>
-              <li>
-                <a href="#">Careers</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="right">
-          <div class="social">
-            <img src="./assets/svg/footer/facebook.svg" alt="facebook logo">
-            <img src="./assets/svg/footer/instagram.svg" alt="instagram logo">
-            <img src="./assets/svg/footer/twitter.svg" alt="twitter logo">
-          </div>
-        </div>
-      </div>
-
-  </footer>
+<footer data-include="footer"></footer>
+<script rel="script" src="scripts/header.js"></script>
 </body>
 
 </html>

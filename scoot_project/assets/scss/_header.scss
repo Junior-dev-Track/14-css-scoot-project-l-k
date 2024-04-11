@@ -1,42 +1,86 @@
 @import "typos", "colors", "fonts", "buttons";
 
 .container {
-    max-width: 80%;
+    width: 1110px;
     margin: 0 auto;
 }
 
-header {
+.headpic{
+
+    //margin-top: 2rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 650px;
+    margin: auto;
+    justify-content: center;
+
+    background-image: url("/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/jpg/header.jpg");
+    background-size: 100%;
+    background-color: hsla(217, 18%, 35%, 1);
+    width: 100%;
+    //background-position: right;
+    background-repeat: no-repeat;
+
+
+
+}
+.insideheadpic {
+    display: flex;
+    width:1110px;
+    justify-content: space-around;
+    margin-left: 2rem;
     align-items: center;
-    padding: 0.8em 0;
 
-    .menu {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        li {
-            list-style: none;
-            display: inline;
-            padding: 1em;
-
-            a {
-                text-decoration: none;
-                color: $dg;
-                font-family: 'Space Mono';
-                font-size: 15px;
-                line-height: 25px;
-            }
-
-            a:hover {
-                color: $yellow;
-            }
-        }
-    }
-
-    .button {
-        @include btn;
+    .ltxt {
+        width: 50%;
+        color: hsla(0, 0%, 100%, 1);
+        font-family: 'Space Mono', serif;
+        font-size: 56px;
+        line-height: 65px;
     }
 }
+//.rtext{
+//    color: hsla(0, 0%, 100%, 1);
+//    font-family: 'Space Mono', serif;
+//    font-size: 56px;
+//    line-height: 65px;
+//}
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8em 0;
+        transition: top 1s;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            li {
+                list-style: none;
+                display: inline;
+                padding: 1em;
+
+                a {
+                    text-decoration: none;
+                    color: $dg;
+                    font-family: 'Space Mono', serif;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+
+                a:hover {
+                    color: $yellow;
+                }
+            }
+        }
+
+        .button {
+            @include btn;
+        }
+    }
