@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="deleted pages folder">
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="test faq menu">
+      <change afterPath="$PROJECT_DIR$/scoot_project/assets/png/about/faqArrow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/faq.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/scripts/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/scripts/faq.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scoot_project/views/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/views/faq.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,16 +56,20 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/ken/becode/14-css-scoot-project-l-k",
+    "last_opened_file_path": "/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/png/about",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scoot_project/assets/png/about" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scoot_project" />
       <recent name="$PROJECT_DIR$/scoot_project/assets/pages" />
@@ -285,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712826017863</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test faq menu">
+      <option name="closed" value="true" />
+      <created>1712827367310</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712827367310</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +310,7 @@
     <MESSAGE value="suite header index" />
     <MESSAGE value="new pages folder" />
     <MESSAGE value="deleted pages folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted pages folder" />
+    <MESSAGE value="test faq menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="test faq menu" />
   </component>
 </project>
