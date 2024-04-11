@@ -40,16 +40,12 @@
 
 .footer_down {
   display: flex;
-  justify-content: space-between;
-  //align-items: center;
-  width: 100%;
-  height: 100%;
   background-color: hsla(215, 14%, 23%, 1);
 
   .l {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    //gap: 1rem;
     width: 50%;
 
     ul {
