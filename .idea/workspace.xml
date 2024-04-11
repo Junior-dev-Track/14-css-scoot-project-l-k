@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="faq menu arrow and rotate">
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="faq menu background color and layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/faq.scss" afterDir="false" />
     </list>
@@ -303,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712837298007</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="faq menu background color and layout">
+      <option name="closed" value="true" />
+      <created>1712837670448</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712837670449</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +326,7 @@
     <MESSAGE value="deleted pages folder" />
     <MESSAGE value="test faq menu" />
     <MESSAGE value="faq menu arrow and rotate" />
-    <option name="LAST_COMMIT_MESSAGE" value="faq menu arrow and rotate" />
+    <MESSAGE value="faq menu background color and layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="faq menu background color and layout" />
   </component>
 </project>
