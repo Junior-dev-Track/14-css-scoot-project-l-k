@@ -1,70 +1,99 @@
-.faq-item {
 
+.faq-item {
+  display: flex;
+  justify-content: center;
+  :hover {
+    background-color: white;
+
+  }
+  .section1{
+    width: 40%;
     display: flex;
-    align-content: center;
+    justify-content: left;
+  }
+  display: flex;
+  //flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  .sections {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 20px;
-  h3 {
     width: 50%;
+    align-items: center;
+  }
+
+  h3 {
+    text-align: left;
+    width: 100%;
     font-family: "Space Mono", serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -1.79px;
+
   }
-  details{
-    width: 50%;
-    .faq-answer{
+
+  h3:hover {
+    background-color: white;
+  }
+
+  details {
+    background-color: hsla(214, 37%, 96%, 1);
+
+    summary {
+      display: flex;
       font-family: "Space Mono", serif;
-      font-weight: 400;
+      font-weight: 700;
       font-size: 24px;
-      line-height: 28px;
+      line-height:28px;
       letter-spacing: -1.07px;
-      background-color: hsla(214, 37%, 96%, 1);
-    }
-  }
-
-  }
-
-.faq-question{
         display: flex;
-        gap: 1rem;
-        justify-content: right;
-  background-color: hsla(214, 37%, 96%, 1);
+        justify-content: space-between;
 
-  h4 {
+    }
+
+  }
+
+  .faq-questions {
+    display: flex;
+    width: 75%;
+    align-content: center;
+    :hover {
+      background-color: hsla(39, 100%, 94%, 1);
+  }
+.faq-question{
+  width: 100%;
+}
+  .faq-answer {
     font-family: "Space Mono", serif;
-    //font-weight: 700;
+    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: -1.07px;
 
-    margin-bottom: 20px;
-    cursor: pointer;
   }
-}
 
-.faq-answer {
-
-
-}
-
-
-.faq-item summary {
+  .faq-questions summary {
     list-style: none;
-}
+  }
 
-.faq-item summary::-webkit-details-marker {
+  .faq-questions summary::-webkit-details-marker {
     display: none;
-}
+  }
 
-.faq-item summary::after {
+  summary::after {
     content: url("./assets/png/about/faqArrow.png");
-    float: right;
-    margin-right: -15px;
-    transition: transform 0.3s ease-in-out;
-}
 
-.faq-item details[open] summary::after {
+
+    //margin-right: 0px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .faq-questions details[open] summary::after {
     transform: rotateX(180deg);
-}
+  }}}
+
+
