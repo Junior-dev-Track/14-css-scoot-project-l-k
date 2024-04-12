@@ -1,33 +1,46 @@
 @import "typos", "colors", "fonts";
+//.line {
+//    position: relative;
+//    width: 80%;
+//    height: 100%;
+//    z-index: 0;
+//    right: 7%;
+//    top: 3.7em;
+//}
 
 .icons {
     padding-top: 7em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
 
-    .line {
-        position: relative;
-        width: 80%;
-        height: 100%;
-        z-index: 0;
-        right: 7%;
-        top: 3.7em;
-    }
+
+img{
+    width: 20%;
+}
+
+//    .line {
+//        transform-origin: 50% 50%;
+//        transform: translateY(-200px) rotate(0deg) scaleX(0.2);
+//}
 
     .texts {
         display: flex;
-        //
-        //justify-content: space-between;
-        //align-items: center;
+        flex-direction:column;
         gap: 1em;
-        //z-index: 1;
-
+        width: 50%;
+        align-content: center;
+        z-index: 1;
 
         article {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            width: 100%;
+            width: 50%;
             gap: 1em;
-            position: relative;
+            justify-content: left;
+
 
             h4 {
                 @include head4;
@@ -45,26 +58,58 @@
 }
 
 @media (max-width: 1024px) {
-    .line {
-        transform-origin: 15% 50%;
-        transform: translateY(-90px) rotate(90deg) scaleX(0.8);
+    icons{
+    display: none;
     }
 
-
-    .texts {
-        width: 100%;
+    .icons {
+        padding-top: 0rem;
         display: flex;
         flex-direction: column;
+        gap: 4rem;
 
-        .article {
+
+        img{
+            width: 10%;
+        }
+
+        .line {
+            transform-origin: 15% 50%;
+            transform: translateY(-200px) rotate(90deg) scaleX(0.2);
+        }
+
+        .texts {
             display: flex;
-            flex-direction: row;
-            //align-items: center;
-            gap: 1em;
-            //width: 100%;
-            //padding: 0 1em;
+            flex-direction:row;
+            align-content: center;
+            z-index: 1;
+
+
+            article {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                justify-content: center;
+
+                align-items: center;
+                //width: 100%;
+                //gap: 1em;
+                //position: relative;
+
+                h4 {
+                    @include head4;
+                }
+
+                p {
+                    @include body1;
+                    color: $dg;
+                    text-align: left;
+                }
+            }
         }
     }
 }
+
+
 
 
