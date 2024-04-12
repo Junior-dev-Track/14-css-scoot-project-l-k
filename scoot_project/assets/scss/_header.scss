@@ -1,69 +1,80 @@
 @import "typos", "colors", "fonts", "buttons";
 
-body{
+body {
     margin: auto;
 }
+
 .container {
     width: 90%;
-    margin:  auto;
-    //background-color: none;
-}
+    margin: auto;
 
-// This part is exclusive for the banner part of the index/home page
-.headpic{
+    body {
+        margin: auto;
+    }
 
-    display: flex;
-    padding-bottom: 5%;
-    background-image: url("./assets/jpg/header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    .container {
+        width: 90%;
+        margin: auto;
+        //background-color: none;
+    }
+
+    // This part is exclusive for the banner part of the index/home page
+    .headpic {
+
+        display: flex;
+        padding-bottom: 5%;
+        background-image: url("./assets/jpg/header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
 
 
-}
-.insideheadpic {
-    display: flex;
+    }
 
-    flex-direction: column;
+    .insideheadpic {
+        display: flex;
 
-    //gap: 3rem;
+        flex-direction: column;
+
+        //gap: 3rem;
 
 
-    .button {
-        @include btn;
-        margin-left: 8rem;
-        &:hover {
-            background-color: hsla(217, 18%, 35%, 1);
+        .button {
+            @include btn;
+            margin-left: 8rem;
+
+            &:hover {
+                background-color: hsla(217, 18%, 35%, 1);
+                color: hsla(0, 0%, 100%, 1);
+            }
+        }
+
+        .titleTxt {
+            width: 50%;
             color: hsla(0, 0%, 100%, 1);
+            font-family: 'Space Mono', serif;
+            font-size: 56px;
+            line-height: 56px;
+            font-weight: 700;
+            letter-spacing: -2.5px;
+            margin-top: 5.5rem;
+            //padding-left: 2rem;
+
+        }
+
+        .headTxt {
+            width: 50%;
+            color: hsla(0, 0%, 100%, 1);
+            font-family: 'Lexend Deca', serif;
+            font-size: 15px;
+            line-height: 25px;
+            padding-left: 8rem;
+            text-align: left;
         }
     }
 
-    .titleTxt {
-        width: 50%;
-        color: hsla(0, 0%, 100%, 1);
-        font-family: 'Space Mono', serif;
-        font-size: 56px;
-        line-height: 56px;
-        font-weight: 700;
-        letter-spacing: -2.5px;
-        margin-top: 5.5rem;
-        //padding-left: 2rem;
 
-    }
-    .headTxt{
-        width: 50%;
-        color: hsla(0, 0%, 100%, 1);
-        font-family: 'Lexend Deca', serif;
-        font-size: 15px;
-        line-height: 25px;
-        padding-left: 8rem;
-        text-align: left;
-    }
-}
-
-
-//This part is for global headers and navbars
-
-    header {
+    //This part is for global headers and navbars
+    <<<<<<< HEAD header {
         display: flex;
         width: 100%;
         flex-direction: row;
@@ -139,9 +150,10 @@ body{
 
 
             }
+
             .headTxt {
 
-                width:70%;
+                width: 70%;
                 margin: auto;
                 margin-bottom: 2rem;
                 margin-top: 2rem;
@@ -152,9 +164,117 @@ body{
 
 
             }
+
             .button {
                 margin: auto;
                 margin-top: 2rem;
             }
-        }
-    }
+
+            =======header .menu,
+            header .button {
+                //opacity: 0;
+                //background-color: rgba(255, 255, 255, 1);
+            }
+
+            header {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.8em 0;
+                transition: top 1s;
+                position: sticky;
+                z-index: 1000;
+                background-color: rgba(255, 255, 255, 0.9);
+
+
+
+                .menu {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    background-color: none;
+
+
+                    li {
+                        list-style: none;
+                        display: inline;
+                        padding: 1em;
+
+
+                        a {
+                            text-decoration: none;
+                            color: $dg;
+                            font-family: 'Space Mono', serif;
+                            font-size: 15px;
+                            line-height: 25px;
+                            background-color: none;
+                        }
+
+                        a:hover {
+                            color: $yellow;
+                        }
+                    }
+                }
+
+                .button {
+                    @include btn;
+                }
+            }
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+
+
+                //body{
+                //    display: flex;
+                //    //width: 1024px;
+                //}
+
+                .insideheadpic {
+                    display: none;
+                }
+
+                .insideheadpic {
+                    display: flex;
+                    width: 100%;
+
+                    //background-image: url("./assets/jpg/scoothead.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    gap: 0;
+                    padding-bottom: 2px;
+
+                    .titleTxt {
+                        width: 50%;
+                        margin: auto;
+                        margin-bottom: 0px;
+                        text-align: center;
+                        font-size: 56px;
+                        line-height: 56px;
+                        letter-spacing: -2.5px;
+
+
+                    }
+
+                    .headTxt {
+
+                        width: 50%;
+                        margin: auto;
+                        margin-bottom: 2rem;
+                        margin-top: 2rem;
+                        text-align: center;
+                        font-size: 15px;
+                        line-height: 25px;
+                        padding-left: 0;
+
+
+                    }
+
+                    .button {
+                        margin: auto;
+                        margin-top: 2rem;
+                        >>>>>>>Louis
+                    }
+                }
+            }
