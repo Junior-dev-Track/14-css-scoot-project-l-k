@@ -1,8 +1,10 @@
 @import "typos", "colors", "fonts", "buttons";
 
+
 .container {
     width: 1110px;
     margin: 0 auto;
+    //background-color: none;
 }
 
 // This part is exclusive for the banner part of the index/home page
@@ -13,7 +15,8 @@
     //margin: auto;
     justify-content: center;
     background-image: url("./assets/jpg/header.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .insideheadpic {
@@ -22,11 +25,8 @@
     justify-content: center;
     //align-content: center;
     width:1110px;
-    gap: 4rem;
+    gap: 3rem;
 
-    //justify-content: space-around;
-    //margin-left: 2rem;
-    //align-items: center;
 
     .button {
         @include btn;
@@ -61,7 +61,11 @@
 }
 
 
-//This part is for global header and navbar
+//This part is for global headers and navbars
+header .menu, header .button {
+    //opacity: 0;
+    //background-color: rgba(255, 255, 255, 1);
+}
     header {
         display: flex;
         flex-direction: row;
@@ -70,19 +74,23 @@
         padding: 0.8em 0;
         transition: top 1s;
         position: sticky;
-        //top: -50;
         z-index: 1000;
-        background-color: white;
+        background-color: rgba(255,255,255, 0.5);
+
+
 
         .menu {
             display: flex;
             flex-direction: row;
             align-items: center;
+            background-color: none;
+
 
             li {
                 list-style: none;
                 display: inline;
                 padding: 1em;
+
 
                 a {
                     text-decoration: none;
@@ -90,6 +98,7 @@
                     font-family: 'Space Mono', serif;
                     font-size: 15px;
                     line-height: 25px;
+                    background-color: none;
                 }
 
                 a:hover {
@@ -100,5 +109,52 @@
 
         .button {
             @include btn;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        header{
+            display: flex;
+            width: 1024px;
+        }
+
+        .insideheadpic {
+            display: none;
+        }
+        .insideheadpic {
+            display: flex;
+            background-image: url("./assets/jpg/scoothead.png");
+            background-size: cover;
+            gap: 0;
+            padding-bottom: 2px;
+
+            .titleTxt {
+                width: 50%;
+                margin: auto;
+                margin-bottom: 0px;
+                text-align: center;
+                font-size: 56px;
+                line-height: 56px;
+                letter-spacing: -2.5px;
+
+
+            }
+            .headTxt {
+
+                width:50%;
+                margin: auto;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+                text-align: center;
+                font-size: 15px;
+                line-height: 25px;
+                padding-left: 0;
+
+
+            }
+            .button {
+                margin: auto;
+                margin-top: 2rem;
+            }
         }
     }
