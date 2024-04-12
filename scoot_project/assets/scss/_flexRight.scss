@@ -73,9 +73,89 @@ main {
             right: 0;
         }
 
+    }
+}
 
+@media (min-width:768px) and (max-width: 1024px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 8em;
 
+        .txtImg {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 2em;
 
+            .textBtn {
+                overflow-wrap: break-word;
+                width: 60%;
+            }
 
+            h2 {
+                @include head2;
+                text-align: center;
+            }
+
+            p {
+                @include body1;
+                color: $dg;
+                padding: 1.5em 0;
+                text-align: center;
+            }
+
+            .test {
+                display: flex;
+                justify-content: center;
+            }
+
+            .button {
+                @include btn;
+                text-decoration: none;
+                color: white;
+            }
+
+            .png {
+                position: relative;
+                z-index: 0;
+            }
+
+            img.mask {
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+                position: relative;
+                z-index: 0;
+            }
+
+            .circle {
+                z-index: 0;
+                position: absolute;
+                top: 60px;
+                right: 0;
+            }
+
+            .arrow {
+                z-index: 1;
+                position: absolute;
+                top: 350px;
+                right: 0;
+            }
+
+            .circle3 {
+                z-index: 0;
+                position: absolute;
+                top: 1220px;
+                right: 0;
+            }
+
+            .arrow3 {
+                z-index: 1;
+                position: absolute;
+                top: 1300px;
+                right: 0;
+            }
+
+        }
     }
 }

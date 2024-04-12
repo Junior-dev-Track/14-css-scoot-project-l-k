@@ -1,68 +1,68 @@
 @import "typos", "colors";
-@media (min-width: 1024px) and (max-width: 1440px) {
-  .footer_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_up {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("./assets/svg/footer/background.svg");
+  background-color: hsla(217, 18%, 35%, 1);
+  background-position: right;
+  background-repeat: no-repeat;
+
+  p {
+    font-size: 48px;
+    color: white;
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    line-height: 48px;
+    width: 50%;
+
   }
+}
 
-  .footer_up {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-image: url("./assets/svg/footer/background.svg");
-    background-color: hsla(217, 18%, 35%, 1);
-    background-position: right;
-    background-repeat: no-repeat;
+.stores {
+  display: flex;
+  justify-content: right;
+  gap: 0.7em;
+}
 
-    p {
-      font-size: 48px;
-      color: white;
-      font-family: "Space Mono", serif;
-      font-weight: 700;
-      line-height: 48px;
-      width: 50%;
+.footer_down {
+  background-color: hsla(215, 14%, 23%, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 
-    }
-  }
-
-  .stores {
-    display: flex;
-    justify-content: right;
-    gap: 0.7em;
-  }
-
-  .footer_down {
-    background-color: hsla(215, 14%, 23%, 1);
+  .footer_down_left {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-
-    .footer_down_left {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
+  }
 
 
-    li {
-      list-style: none;
-      display: inline;
-      padding-left: 3em;
+  li {
+    list-style: none;
+    display: inline;
+    padding-left: 3em;
 
-      a {
-        text-decoration: none;
-        color: white;
-        font-family: "Space Mono";
-        font-size: 15px;
-        line-height: 25px;
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: "Space Mono";
+      font-size: 15px;
+      line-height: 25px;
 
-      }
     }
   }
 }
+
 
 .social {
   display: flex;
