@@ -13,7 +13,7 @@ main {
             width: 30%;
         }
 
-        .test {
+        .text {
 
             width: 40%;
 
@@ -33,4 +33,40 @@ main {
     }
 
     padding-bottom: 3em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    main {
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+
+
+            .text {
+                width: 70%;
+            }
+
+            h2 {
+                @include head2;
+                width: 50%;
+                text-align: center;
+            }
+
+            p {
+                @include body1;
+                color: $dg;
+                text-align: center;
+            }
+
+
+            a {
+                @include btn;
+                padding: 1em 3em;
+            }
+
+        }
+
+    }
 }
