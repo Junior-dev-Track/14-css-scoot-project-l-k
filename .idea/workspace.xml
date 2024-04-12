@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="icons line desktop and tablet + general width =&gt; 90%" />
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="icons line desktop and tablet + general width =&gt; 90%">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/views/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/views/header.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,14 +108,6 @@
       <workItem from="1712872553586" duration="2070000" />
       <workItem from="1712904701561" duration="4168000" />
       <workItem from="1712909312119" duration="3825000" />
-    </task>
-    <task id="LOCAL-00001" summary="update">
-      <option name="closed" value="true" />
-      <created>1712768567590</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1712768567590</updated>
     </task>
     <task id="LOCAL-00002" summary="update">
       <option name="closed" value="true" />
@@ -496,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712931651210</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="icons line desktop and tablet + general width =&gt; 90%">
+      <option name="closed" value="true" />
+      <created>1712931691768</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1712931691768</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
