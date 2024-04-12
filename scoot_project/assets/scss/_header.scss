@@ -1,20 +1,11 @@
 @import "typos", "colors", "fonts", "buttons";
 
-body {
-    //width: 90%;
-    //margin: 10%;
-}
 
-.container {
-    width: 80%;
-    //margin: auto;
 
-}
 .containertest{
-    width: 90%;
+    width: 77.08%;
     margin: auto;
 }
-
 
 // This part is exclusive for the banner part of the index/home page
 
@@ -25,13 +16,13 @@ body {
     background-image: url("./assets/jpg/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
-
 }
 
 .insideheadpic {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    gap: 4rem;
 
     .button {
         @include btn;
@@ -95,6 +86,7 @@ header {
                 font-family: 'Space Mono', serif;
                 font-size: 15px;
                 line-height: 25px;
+                font-weight: bold;
                 //background-color: none;
             }
 

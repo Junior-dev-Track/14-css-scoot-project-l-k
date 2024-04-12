@@ -3,7 +3,10 @@
 main {
 
     .map {
-        display: block;
+        display: flex;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+
     }
 
     .mapMobile {
