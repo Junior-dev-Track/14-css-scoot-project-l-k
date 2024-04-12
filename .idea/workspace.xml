@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="faq layout" />
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="faq layout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +58,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Kenny",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/jpg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
