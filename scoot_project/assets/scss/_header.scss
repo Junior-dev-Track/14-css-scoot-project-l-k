@@ -74,7 +74,7 @@ body {
 
 
     //This part is for global headers and navbars
-    <<<<<<< HEAD header {
+    header {
         display: flex;
         width: 100%;
         flex-direction: row;
@@ -170,7 +170,7 @@ body {
                 margin-top: 2rem;
             }
 
-            =======header .menu,
+            header .menu,
             header .button {
                 //opacity: 0;
                 //background-color: rgba(255, 255, 255, 1);
@@ -274,7 +274,10 @@ body {
                     .button {
                         margin: auto;
                         margin-top: 2rem;
-                        >>>>>>>Louis
+
                     }
                 }
             }
+        }
+    }
+}
