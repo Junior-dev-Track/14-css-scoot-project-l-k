@@ -2,6 +2,19 @@
 
 main {
 
+    .map {
+        display: block;
+    }
+
+    .mapMobile {
+        display: none;
+    }
+
+    .cities {
+        display: none;
+    }
+
+
     .content {
         display: flex;
         flex-direction: row;
@@ -38,6 +51,18 @@ main {
 @media (min-width: 768px) and (max-width: 1024px) {
     main {
 
+        .map {
+            display: block;
+        }
+
+        .mapMobile {
+            display: none;
+        }
+
+        .cities {
+            display: none;
+        }
+
         .content {
             display: flex;
             flex-direction: column;
@@ -64,6 +89,71 @@ main {
             a {
                 @include btn;
                 padding: 1em 3em;
+            }
+
+        }
+
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    main {
+
+        .map {
+            display: none;
+        }
+
+        .mapMobile {
+            display: block;
+        }
+
+        .cities {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+
+            .box {
+                background-color: lighten($yellow, 35%);
+                padding: 2em 0;
+
+                p {
+                    @include head4;
+                    font-weight: 700;
+                    color: $dn;
+                    text-align: center;
+                }
+            }
+
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+
+
+            .text {
+                width: 75%;
+            }
+
+            h2 {
+                @include head2;
+                width: 100%;
+                text-align: center;
+            }
+
+            p {
+                @include body1;
+                color: $dg;
+                text-align: center;
+            }
+
+
+            a {
+                @include btn;
+                padding: 1em 3em;
+                margin-bottom: 2em;
+                ;
             }
 
         }
