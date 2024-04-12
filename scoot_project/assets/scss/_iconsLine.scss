@@ -45,6 +45,11 @@
 }
 
 @media (max-width: 1024px) {
+    .line {
+        transform-origin: 15% 50%;
+        transform: translateY(-90px) rotate(90deg) scaleX(0.8);
+    }
+
 
     .texts {
         width: 100%;
@@ -58,11 +63,8 @@
             gap: 1em;
             //width: 100%;
             //padding: 0 1em;
-
         }
-        }
-
-
     }
+}
 
 
