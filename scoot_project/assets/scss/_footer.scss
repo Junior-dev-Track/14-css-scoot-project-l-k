@@ -1,4 +1,4 @@
-@import "typos";
+@import "typos", "colors";
 
 .footer_container {
   display: flex;
@@ -75,10 +75,20 @@
 
   }
 
+  .svg {
+    filter: invert(80%) sepia(48%) saturate(1425%) hue-rotate(335deg) brightness(102%) contrast(98%);
+  }
+
+  .svg:hover,
+  .svg:focus {
+    filter: invert(100%) sepia(8%) saturate(2763%) hue-rotate(202deg) brightness(125%) contrast(80%);
+  }
+
   .right {
     display: flex;
     flex-direction: row;
     justify-content: right;
+    align-items: center;
     gap: 1rem;
   }
 }
