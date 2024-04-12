@@ -1,5 +1,10 @@
 @import "typos", "colors";
 
+.container {
+  width: 90%;
+  margin: auto;
+}
+
 .footer_container {
   display: flex;
   justify-content: space-between;
@@ -46,6 +51,14 @@
     align-items: center;
   }
 
+  .grey {
+    display: block;
+  }
+
+  .white {
+    display: none;
+  }
+
 
   li {
     list-style: none;
@@ -58,7 +71,10 @@
       font-family: "Space Mono";
       font-size: 15px;
       line-height: 25px;
+    }
 
+    a:hover {
+      color: $yellow;
     }
   }
 }
@@ -81,24 +97,33 @@
   filter: invert(100%) sepia(8%) saturate(2763%) hue-rotate(202deg) brightness(125%) contrast(80%);
 }
 
-
+// Tablet -----------------------------------------------------------------
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
   .footer_container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
   }
 
   .footer_up {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     background-image: url("./assets/svg/footer/background.svg");
     background-color: hsla(217, 18%, 35%, 1);
     background-position: right;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer_container p {
@@ -135,6 +160,14 @@
       align-items: center;
     }
 
+    .grey {
+      display: none;
+    }
+
+    .white {
+      display: block;
+    }
+
 
     li {
       list-style-type: none;
@@ -147,7 +180,10 @@
         font-family: "Space Mono";
         font-size: 15px;
         line-height: 25px;
+      }
 
+      a:hover {
+        color: $yellow;
       }
     }
 
