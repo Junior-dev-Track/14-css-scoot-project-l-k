@@ -2,8 +2,8 @@
 
 
 .container {
-    width: 1110px;
-    margin: 0 auto;
+    width: 100vh;
+    margin:  auto;
     //background-color: none;
 }
 
@@ -11,8 +11,9 @@
 .headpic{
 
     display: flex;
+    width: 100%;
     height: 650px;
-    //margin: auto;
+    margin: auto;
     justify-content: center;
     background-image: url("./assets/jpg/header.jpg");
     background-size: cover;
@@ -24,7 +25,7 @@
     flex-direction: column;
     justify-content: center;
     //align-content: center;
-    width:1110px;
+    //width:1110px;
     gap: 3rem;
 
 
@@ -68,6 +69,7 @@ header .menu, header .button {
 }
     header {
         display: flex;
+        width: 100%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -75,7 +77,7 @@ header .menu, header .button {
         transition: top 1s;
         position: sticky;
         z-index: 1000;
-        background-color: rgba(255,255,255, 0.5);
+        background-color: rgba(255,255,255, 0.9);
 
 
 
@@ -113,18 +115,23 @@ header .menu, header .button {
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
-        header{
-            display: flex;
-            width: 1024px;
-        }
+
+
+        //body{
+        //    display: flex;
+        //    //width: 1024px;
+        //}
 
         .insideheadpic {
             display: none;
         }
         .insideheadpic {
             display: flex;
-            background-image: url("./assets/jpg/scoothead.png");
-            background-size: cover;
+            width: 100%;
+
+            //background-image: url("./assets/jpg/scoothead.png");
+            background-size: contain;
+            background-repeat: no-repeat;
             gap: 0;
             padding-bottom: 2px;
 
