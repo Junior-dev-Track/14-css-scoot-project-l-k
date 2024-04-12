@@ -1,8 +1,10 @@
 @import "typos", "colors", "fonts", "buttons";
 
-
+body{
+    margin: auto;
+}
 .container {
-    width: 100vh;
+    width: 90%;
     margin:  auto;
     //background-color: none;
 }
@@ -11,22 +13,19 @@
 .headpic{
 
     display: flex;
-    width: 100%;
-    height: 650px;
-    margin: auto;
-    justify-content: center;
+    padding-bottom: 5%;
     background-image: url("./assets/jpg/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
+
 }
 .insideheadpic {
     display: flex;
+
     flex-direction: column;
-    justify-content: center;
-    //align-content: center;
-    //width:1110px;
-    gap: 3rem;
+
+    //gap: 3rem;
 
 
     .button {
@@ -63,10 +62,7 @@
 
 
 //This part is for global headers and navbars
-header .menu, header .button {
-    //opacity: 0;
-    //background-color: rgba(255, 255, 255, 1);
-}
+
     header {
         display: flex;
         width: 100%;
@@ -77,16 +73,11 @@ header .menu, header .button {
         transition: top 1s;
         position: sticky;
         z-index: 1000;
-        background-color: rgba(255,255,255, 0.9);
-
-
+        //background-color: rgba(255,255,255, 0.9);
 
         .menu {
             display: flex;
-            flex-direction: row;
             align-items: center;
-            background-color: none;
-
 
             li {
                 list-style: none;
@@ -100,7 +91,7 @@ header .menu, header .button {
                     font-family: 'Space Mono', serif;
                     font-size: 15px;
                     line-height: 25px;
-                    background-color: none;
+                    //background-color: none;
                 }
 
                 a:hover {
@@ -114,6 +105,9 @@ header .menu, header .button {
         }
     }
 
+
+    // Here begin the media queries
+
     @media (min-width: 768px) and (max-width: 1024px) {
 
 
@@ -125,18 +119,17 @@ header .menu, header .button {
         .insideheadpic {
             display: none;
         }
+
         .insideheadpic {
             display: flex;
             width: 100%;
-
-            //background-image: url("./assets/jpg/scoothead.png");
-            background-size: contain;
+            justify-content: center;
+            //background-size: contain;
             background-repeat: no-repeat;
-            gap: 0;
-            padding-bottom: 2px;
+            padding-top: 2rem;
 
             .titleTxt {
-                width: 50%;
+                width: 70%;
                 margin: auto;
                 margin-bottom: 0px;
                 text-align: center;
@@ -148,7 +141,7 @@ header .menu, header .button {
             }
             .headTxt {
 
-                width:50%;
+                width:70%;
                 margin: auto;
                 margin-bottom: 2rem;
                 margin-top: 2rem;
