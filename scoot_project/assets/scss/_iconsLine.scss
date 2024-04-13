@@ -5,16 +5,16 @@
     width: 80%;
     height: 100%;
     z-index: 0;
-    left: 0%;
-    top: -2.7em;
-    transform:  rotate(0deg) scaleX(4) scaleY(2);
+    left: 0;
+    top:0;
+    transform: scaleX(4) scaleY(2);
 }
 
 .icons {
-    padding-top: 8em;
+    padding-top: 10em;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    //width: 90%;
     //align-items: center;
     gap: 5em;
     position: relative;

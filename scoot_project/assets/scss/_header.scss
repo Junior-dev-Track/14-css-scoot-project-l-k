@@ -1,14 +1,10 @@
 @import "typos", "colors", "fonts", "buttons";
 
-body {
-    width: 90%;
-    margin: auto;
-}
 
-.container {
-    width: 50%;
-    margin: auto;
 
+.containertest{
+    width: 77.08%;
+    margin: auto;
 }
 
 // This part is exclusive for the banner part of the index/home page
@@ -20,17 +16,13 @@ body {
     background-image: url("./assets/jpg/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
-
 }
 
 .insideheadpic {
     display: flex;
-
     flex-direction: column;
-
-    //gap: 3rem;
-
+    width: 100%;
+    gap: 4rem;
 
     .button {
         @include btn;
@@ -66,7 +58,6 @@ body {
     }
 }
 
-
 //This part is for global headers and navbars
 header {
     display: flex;
@@ -89,13 +80,13 @@ header {
             display: inline;
             padding: 1em;
 
-
             a {
                 text-decoration: none;
                 color: $dg;
                 font-family: 'Space Mono', serif;
                 font-size: 15px;
                 line-height: 25px;
+                font-weight: bold;
                 //background-color: none;
             }
 
@@ -110,15 +101,9 @@ header {
     }
 }
 
-
 // Here begin the media queries
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-
-    //body{
-    //    display: flex;
-    //}
 
     .insideheadpic {
         display: none;
@@ -140,12 +125,9 @@ header {
             font-size: 56px;
             line-height: 56px;
             letter-spacing: -2.5px;
-
-
         }
 
         .headTxt {
-
             width: 70%;
             margin: auto;
             margin-bottom: 2rem;
@@ -154,15 +136,12 @@ header {
             font-size: 15px;
             line-height: 25px;
             padding-left: 0;
-
-
         }
 
         .button {
             margin: auto;
             margin-top: 2rem;
         }
-
 
         header {
             display: flex;
@@ -176,20 +155,16 @@ header {
             z-index: 1000;
             background-color: rgba(255, 255, 255, 0.9);
 
-
-
             .menu {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 background-color: none;
 
-
                 li {
                     list-style: none;
                     display: inline;
                     padding: 1em;
-
 
                     a {
                         text-decoration: none;
@@ -235,12 +210,9 @@ header {
                     font-size: 56px;
                     line-height: 56px;
                     letter-spacing: -2.5px;
-
-
                 }
 
                 .headTxt {
-
                     width: 50%;
                     margin: auto;
                     margin-bottom: 2rem;
@@ -249,19 +221,13 @@ header {
                     font-size: 15px;
                     line-height: 25px;
                     padding-left: 0;
-
-
                 }
 
                 .button {
                     margin: auto;
                     margin-top: 2rem;
-
                 }
             }
         }
-
     }
-
-
 }
