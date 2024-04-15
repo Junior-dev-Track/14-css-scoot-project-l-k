@@ -218,7 +218,7 @@ main {
                 z-index: 0;
                 position: absolute;
                 top: 0;
-                left: 39.4em;
+                left: 36em;
             }
 
             .arrow {
@@ -337,32 +337,35 @@ main {
             }
 
             .circle {
-                z-index: 0;
-                position: absolute;
-                top: 60px;
-                right: 0;
+                display: none;
             }
 
             .arrow {
                 z-index: 1;
                 position: absolute;
-                top: 350px;
-                right: 0;
+                top: 250px;
+                left: 100px;
             }
 
-            .circle3 {
-                z-index: 0;
-                position: absolute;
-                top: 1220px;
-                right: 0;
+            .imgSvg3 {
+                position: relative;
+
+                .circle3 {
+                    display: none;
+                }
+
+                .arrow3 {
+                    z-index: 1;
+                    position: absolute;
+                    top: 1em;
+                    left: 5em;
+                    transform: scale(1.02);
+
+                }
+
+
             }
 
-            .arrow3 {
-                z-index: 1;
-                position: absolute;
-                top: 1300px;
-                right: 0;
-            }
 
         }
     }

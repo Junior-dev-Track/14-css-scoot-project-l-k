@@ -198,38 +198,30 @@ main {
                 z-index: 0;
             }
 
-            .circle {
-                z-index: 0;
-                position: absolute;
-                top: 60px;
-                right: 0;
+            imgSvg2 {
+                position: relative;
+                background-color: pink;
+
+                .circle2 {
+                    display: none;
+                }
+
+                .arrow2 {
+                    z-index: 1;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                }
             }
 
-            .arrow {
-                z-index: 1;
-                position: absolute;
-                top: 350px;
-                right: 0;
-            }
-
-            .circle3 {
-                z-index: 0;
-                position: absolute;
-                top: 1220px;
-                right: 0;
-            }
-
-            .arrow3 {
-                z-index: 1;
-                position: absolute;
-                top: 1300px;
-                right: 0;
-            }
 
         }
-        .txtImg{
+
+        .txtImg {
             display: flex;
             flex-direction: column-reverse;
+
             //background-color: #FCB72B;
             .textBtn {
                 display: flex;
