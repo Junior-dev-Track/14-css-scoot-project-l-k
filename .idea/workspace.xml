@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="multiple small tasks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/views/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/views/footer.html" afterDir="false" />
-    </list>
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="multiple small tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +143,7 @@
       <workItem from="1713088551057" duration="10893000" />
       <workItem from="1713101179292" duration="6801000" />
       <workItem from="1713129332371" duration="992000" />
-      <workItem from="1713164293413" duration="17047000" />
+      <workItem from="1713164293413" duration="17758000" />
     </task>
     <task id="LOCAL-00006" summary="update">
       <option name="closed" value="true" />
