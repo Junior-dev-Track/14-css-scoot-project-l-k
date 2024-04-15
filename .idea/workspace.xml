@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="multiple small tasks" />
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="multiple small tasks">
+      <change afterPath="$PROJECT_DIR$/docs/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/footer.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,14 +70,14 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "final",
-    "last_opened_file_path": "/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/jpg",
+    "last_opened_file_path": "/home/ken/becode/vite-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.build.executor": "Debug",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "watcher.settings",
     "ts.external.directory.path": "/snap/webstorm/370/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -74,11 +88,11 @@
       <recent name="$PROJECT_DIR$/scoot_project/assets/png/about" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/scoot_project/assets/png" />
       <recent name="$PROJECT_DIR$/scoot_project/assets/jpg" />
-      <recent name="$PROJECT_DIR$/scoot_project" />
-      <recent name="$PROJECT_DIR$/scoot_project/assets/pages" />
-      <recent name="$PROJECT_DIR$/scoot_project/scripts" />
     </key>
   </component>
   <component name="RunManager">
@@ -143,7 +157,8 @@
       <workItem from="1713088551057" duration="10893000" />
       <workItem from="1713101179292" duration="6801000" />
       <workItem from="1713129332371" duration="992000" />
-      <workItem from="1713164293413" duration="17758000" />
+      <workItem from="1713164293413" duration="21030000" />
+      <workItem from="1713206583428" duration="896000" />
     </task>
     <task id="LOCAL-00006" summary="update">
       <option name="closed" value="true" />
