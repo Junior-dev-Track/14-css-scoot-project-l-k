@@ -242,7 +242,7 @@ header {
             nav {
                 display: flex;
                 flex-direction: column;
-                position: sticky;
+                //position: sticky;
 
                 ul {
                     position: fixed;
@@ -252,8 +252,8 @@ header {
                     padding : 0;
                     flex-direction: column;
                     align-items: start;
-                    width: 60vw;
-                    height: 100vh;
+                    width: 50%;
+                    height: 100%;
                     background-color: #495567;
                     left: -100%; /* Hide the navigation bar off the left side of the screen */
                     transition: left 0.5s ease; /* Animate the sliding effect */
