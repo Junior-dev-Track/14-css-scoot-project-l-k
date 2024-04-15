@@ -61,7 +61,6 @@ main {
             left: 0;
         }
     }
-<<<<<<< HEAD
 
     .svgImgAbout {
         position: relative;
@@ -88,8 +87,6 @@ main {
 
 
 
-=======
->>>>>>> 32612faacc0bf28923fdca9174c5db33e89c5726
 }
 
 @media (min-width:768px) and (max-width: 1024px) {
@@ -256,9 +253,11 @@ main {
             }
 
         }
-        .txtImg{
+
+        .txtImg {
             display: flex;
             flex-direction: column-reverse;
+
             //background-color: #FCB72B;
             .textBtn {
                 display: flex;
