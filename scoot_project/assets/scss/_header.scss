@@ -1,6 +1,15 @@
 @import "typos", "colors", "fonts", "buttons";
 
-
+#overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999; // This should be higher than the z-index of all other elements
+}
 
 .containertest{
     width: 77.08%;
@@ -16,6 +25,7 @@
     background-image: url("./assets/jpg/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 10rem;
 }
 
 .insideheadpic {
@@ -59,25 +69,55 @@
 }
 
 //This part is for global headers and navbars
+
+.headcontainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.5em 0;
+
+    .button{
+        width: 18%;
+    }
+}
+
 header {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 0.8em 0;
     transition: top 1s;
     position: sticky;
     z-index: 1000;
-    //background-color: rgba(255,255,255, 0.9);
+    background-color: rgba(255,255,255, 0.8);
+
 
     .menu {
         display: flex;
+        width: 100%;
         align-items: center;
+
+        nav{
+            width: 100%;
+
+        ul {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+
+        }
+        }
+        .list {
+
+            display: flex;
+            align-items: center;
+        }
 
         li {
             list-style: none;
-            display: inline;
+            display: inline-flex;
+            justify-content: space-between;
             padding: 1em;
 
             a {
@@ -87,7 +127,6 @@ header {
                 font-size: 15px;
                 line-height: 25px;
                 font-weight: bold;
-                //background-color: none;
             }
 
             a:hover {
@@ -95,139 +134,176 @@ header {
             }
         }
     }
-
+    
     .button {
         @include btn;
+
     }
 }
 
 // Here begin the media queries
+/* Hide the navigation menu by default */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/* Style the burger menu */
+.burger {
+    display: none;
+    cursor: pointer;
+}
 
-    .insideheadpic {
-        display: none;
+/* Show the burger menu and hide the navigation menu when the screen size is 600px or less */
+//@media screen and (max-width: 600px) {
+//    nav ul {
+//        display: none;
+//    }
+//    .burger {
+//        display: block;
+//    }
+//}
+
+
+@media (max-width: 1024px) {
+    //nav ul {
+    .containertest {
+        width: 90%;
+    }
+    //    display: none;
+    //}
+    //.burger {
+    //    display: block;
+    //}
+    //.button {
+    //    display: none;
+    //}
+
+    //
+    .headcontainer {
+        display: flex;
+        width: 100%;
+
+        .button {
+            //display: flex;
+            width: 30%;
+        }
+    }
+    .headpic {
+        //display: none;
+        height: 40rem;
     }
 
     .insideheadpic {
         display: flex;
-        width: 100%;
-        justify-content: center;
-        //background-size: contain;
-        background-repeat: no-repeat;
-        padding-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+
 
         .titleTxt {
-            width: 70%;
-            margin: auto;
-            margin-bottom: 0px;
+            width: 90%;
             text-align: center;
-            font-size: 56px;
-            line-height: 56px;
-            letter-spacing: -2.5px;
         }
 
         .headTxt {
-            width: 70%;
-            margin: auto;
-            margin-bottom: 2rem;
-            margin-top: 2rem;
             text-align: center;
-            font-size: 15px;
-            line-height: 25px;
-            padding-left: 0;
+            padding: 0;
+            //margin-left: 0rem;
+            width: 90%;
         }
 
         .button {
-            margin: auto;
-            margin-top: 2rem;
-        }
+            //display: flex;
+            margin-left: 0;
 
-        header {
-            display: flex;
-            width: 100%;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.8em 0;
-            transition: top 1s;
-            position: sticky;
-            z-index: 1000;
-            background-color: rgba(255, 255, 255, 0.9);
-
-            .menu {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                background-color: none;
-
-                li {
-                    list-style: none;
-                    display: inline;
-                    padding: 1em;
-
-                    a {
-                        text-decoration: none;
-                        color: $dg;
-                        font-family: 'Space Mono', serif;
-                        font-size: 15px;
-                        line-height: 25px;
-                        background-color: none;
-                    }
-
-                    a:hover {
-                        color: $yellow;
-                    }
-                }
-            }
-
-            .button {
-                @include btn;
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 1024px) {
-
-            .insideheadpic {
-                display: none;
-            }
-
-            .insideheadpic {
-                display: flex;
-                width: 100%;
-
-                //background-image: url("./assets/jpg/scoothead.png");
-                background-size: contain;
-                background-repeat: no-repeat;
-                gap: 0;
-                padding-bottom: 2px;
-
-                .titleTxt {
-                    width: 50%;
-                    margin: auto;
-                    margin-bottom: 0px;
-                    text-align: center;
-                    font-size: 56px;
-                    line-height: 56px;
-                    letter-spacing: -2.5px;
-                }
-
-                .headTxt {
-                    width: 50%;
-                    margin: auto;
-                    margin-bottom: 2rem;
-                    margin-top: 2rem;
-                    text-align: center;
-                    font-size: 15px;
-                    line-height: 25px;
-                    padding-left: 0;
-                }
-
-                .button {
-                    margin: auto;
-                    margin-top: 2rem;
-                }
-            }
         }
     }
 }
+
+@media (max-width: 375px){
+    .headcontainer {
+        display: flex;
+        //align-items: center;
+        //justify-content: space-between;
+        //background-color: #FCB72B;
+
+        .burger{
+            height: 20px
+        }
+
+        .menu {
+            display: flex;
+            //width: 100%;
+            justify-content: center;
+            margin-left:100px ;
+            //background-color: #FCB72B;
+
+            nav {
+                display: flex;
+                flex-direction: column;
+                //align-items: center;
+                //justify-content: space-between;
+                ul {
+                    position: absolute;
+                    display: flex;
+                    transform: translateY(35px);
+                    padding : 0;
+                    flex-direction: column;
+                    align-items: start;
+                    width: 60vw;
+                    height: 100vh;
+                    background-color: #495567;
+                    left: -100%; /* Hide the navigation bar off the left side of the screen */
+                    transition: left 0.5s ease; /* Animate the sliding effect */
+
+                    .list{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: space-between;
+                        //gap: 2rem;
+                        padding-top: 2rem;
+
+                    }
+                    .button{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 2rem;
+                    }
+
+                    li{
+                        gap: 5rem;
+
+                        a{
+                            color: white;
+                            font-size: 1.5rem;
+                            font-weight: bold;
+                            text-decoration: none;
+                            padding: 1rem;
+                            transition: 0.5s;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .insideheadpic {
+
+            padding-bottom: 100px;
+            .titleTxt{
+                margin: 0;
+            }
+        }
+
+        .button {
+
+            display:none;
+            //position: relative;
+        }
+        .burger {
+            display: block;
+        }
+    }
+}
+
+
+
+
+

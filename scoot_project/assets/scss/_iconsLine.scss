@@ -9,25 +9,26 @@
     top:0;
     transform: scaleX(4) scaleY(2);
 }
+.icons {
+  position: relative;
+
+  .line {
+    position: absolute;
+    transition: left 0.3s ease-in-out;
+  }
+}
 
 .icons {
-    padding-top: 10em;
+    padding-top: 7em;
+    padding-bottom: 10rem;
     display: flex;
     flex-direction: row;
-    //width: 90%;
-    //align-items: center;
     gap: 5em;
     position: relative;
-
 
 img{
     width: 30%;
 }
-
-//    .line {
-//        transform-origin: 50% 50%;
-//        transform: translateY(-200px) rotate(0deg) scaleX(0.2);
-//}
 
     .texts {
         display: flex;
@@ -37,14 +38,11 @@ img{
         align-content: center;
         z-index: 1;
 
-
         article {
             display: flex;
             flex-direction: column;
             width: 100%;
             gap:2em;
-
-
 
             h4 {
                 @include head4;
@@ -56,18 +54,13 @@ img{
                 text-align: left;
             }
         }
-
     }
-
 }
 
 @media (max-width: 1024px) {
-    icons{
-    display: none;
-    }
 
     .icons {
-        padding-top: 0rem;
+        padding-top: 5rem;
         display: flex;
         flex-direction: column;
         gap: 4rem;
@@ -96,9 +89,6 @@ img{
                 justify-content: center;
 
                 align-items: center;
-                //width: 100%;
-                //gap: 1em;
-                //position: relative;
 
                 h4 {
                     @include head4;
@@ -113,6 +103,78 @@ img{
         }
     }
 }
+
+@media (max-width: 768px) {
+    .icons {
+
+        img{
+            width: 10%;
+        }
+
+        .line {
+            transform-origin: 15% 50%;
+            transform: translateY(-200px) rotate(90deg) scaleX(0.2);
+        }
+
+        .texts {
+            display: flex;
+            flex-direction:row;
+            align-content: center;
+            z-index: 1;
+            gap: 5rem;
+
+            article {
+                display: flex;
+                //width: 100%;
+                flex-direction: column;
+                align-items: start;
+
+                h4 {
+                    @include head4;
+                }
+
+                p {
+                    @include body1;
+                    color: $dg;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .icons {
+        display: flex;
+        padding-bottom: 0;
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+
+            img {
+                width: 25%;
+            }
+
+            article {
+                flex-direction: column;
+                align-items: center;
+
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
 
 
 
