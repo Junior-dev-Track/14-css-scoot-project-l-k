@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="icons line desktop and tablet + general width =&gt; 90%">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_iconsLine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_iconsLine.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/assets/scss/_map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/assets/scss/_map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/views/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/views/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoot_project/views/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_project/views/header.html" afterDir="false" />
-    </list>
+    <list default="true" id="38682e75-461c-47b8-94d3-6d7baf3dc9dc" name="Changes" comment="multiple small tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,34 +49,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Louis&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/jpg&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "final",
+    "last_opened_file_path": "/home/ken/becode/14-css-scoot-project-l-k/scoot_project/assets/jpg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Debug",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "/snap/webstorm/370/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scoot_project/assets/jpg" />
       <recent name="$PROJECT_DIR$/scoot_project/assets/png/about" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scoot_project/assets/png" />
       <recent name="$PROJECT_DIR$/scoot_project/assets/jpg" />
       <recent name="$PROJECT_DIR$/scoot_project" />
       <recent name="$PROJECT_DIR$/scoot_project/assets/pages" />
       <recent name="$PROJECT_DIR$/scoot_project/scripts" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/scoot_project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -115,23 +123,27 @@
       <workItem from="1712872553586" duration="2070000" />
       <workItem from="1712904701561" duration="4168000" />
       <workItem from="1712909312119" duration="3825000" />
-      <workItem from="1712948906384" duration="11653000" />
-    </task>
-    <task id="LOCAL-00003" summary="update">
-      <option name="closed" value="true" />
-      <created>1712771039499</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1712771039499</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update">
-      <option name="closed" value="true" />
-      <created>1712771413486</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1712771413486</updated>
+      <workItem from="1712948906384" duration="13205000" />
+      <workItem from="1712964923508" duration="2194000" />
+      <workItem from="1712968691762" duration="1524000" />
+      <workItem from="1713009801525" duration="9978000" />
+      <workItem from="1713024361931" duration="415000" />
+      <workItem from="1713024780963" duration="718000" />
+      <workItem from="1713027920914" duration="466000" />
+      <workItem from="1713028391486" duration="59000" />
+      <workItem from="1713028454874" duration="649000" />
+      <workItem from="1713029108893" duration="84000" />
+      <workItem from="1713029202902" duration="68000" />
+      <workItem from="1713029275500" duration="765000" />
+      <workItem from="1713030848902" duration="7425000" />
+      <workItem from="1713038868034" duration="3838000" />
+      <workItem from="1713043621960" duration="862000" />
+      <workItem from="1713049329728" duration="4000" />
+      <workItem from="1713049557580" duration="712000" />
+      <workItem from="1713088551057" duration="10893000" />
+      <workItem from="1713101179292" duration="6801000" />
+      <workItem from="1713129332371" duration="992000" />
+      <workItem from="1713164293413" duration="13878000" />
     </task>
     <task id="LOCAL-00005" summary="update">
       <option name="closed" value="true" />
@@ -509,7 +521,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712933192967</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="multiple small tasks">
+      <option name="closed" value="true" />
+      <created>1712960677582</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1712960677583</updated>
+    </task>
+    <task id="LOCAL-00053" summary="multiple small tasks">
+      <option name="closed" value="true" />
+      <created>1713183523388</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1713183523388</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,6 +569,7 @@
     <MESSAGE value="merge conflict" />
     <MESSAGE value="icons line on index.html" />
     <MESSAGE value="icons line desktop and tablet + general width =&gt; 90%" />
-    <option name="LAST_COMMIT_MESSAGE" value="icons line desktop and tablet + general width =&gt; 90%" />
+    <MESSAGE value="multiple small tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiple small tasks" />
   </component>
 </project>
